@@ -1,0 +1,66 @@
+.bome {
+    flex:4;
+}
+
+.cobbTitle{
+    margin-left: 25%;
+    text-align: center;
+    margin-top: 200px;
+    width: 90px;
+    font-size: 30px;
+    color: black;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.nanTitle{
+    margin-left: 28%;
+    text-align: center;
+    font-size: 30px;
+    width: 100px;
+    color: black;
+    border-color: white;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.homeWidgets{
+    display:flex;
+}
+
+.secondWidgets{
+    display:flex;
+}
+
+.nanTitle{
+    margin-left: 0%;
+    text-align: center;
+    font-size: 30px;
+    width: 100px;
+    color: black;
+    border-color: white;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.chartTitle{
+    font-size: 20px;
+    width: 100px;
+    color: black;
+    font-weight: bold;
+    line-height: 1.8;
+}
+
+
+.cobbTitle{
+    position: relative;
+    left: 150px;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+}
+
+.fiberWidget{
+    position:relative;
+    left:0px;
+}
