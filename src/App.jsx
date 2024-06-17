@@ -10,7 +10,7 @@ class App extends Component {
     return (
       <div>
           <div className="container">
-            <Sidebar />
+            {/* <Sidebar /> */}
             <Bome />
           </div>
       </div>

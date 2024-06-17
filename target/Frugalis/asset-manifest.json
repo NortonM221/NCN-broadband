@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Frugalis/static/css/main.d0414287.chunk.css",
-    "main.js": "/Frugalis/static/js/main.94efffdb.chunk.js",
-    "main.js.map": "/Frugalis/static/js/main.94efffdb.chunk.js.map",
+    "main.css": "/Frugalis/static/css/main.bc430367.chunk.css",
+    "main.js": "/Frugalis/static/js/main.75541bbb.chunk.js",
+    "main.js.map": "/Frugalis/static/js/main.75541bbb.chunk.js.map",
     "runtime-main.js": "/Frugalis/static/js/runtime-main.4636ddc4.js",
     "runtime-main.js.map": "/Frugalis/static/js/runtime-main.4636ddc4.js.map",
-    "static/js/2.a5d192a1.chunk.js": "/Frugalis/static/js/2.a5d192a1.chunk.js",
-    "static/js/2.a5d192a1.chunk.js.map": "/Frugalis/static/js/2.a5d192a1.chunk.js.map",
+    "static/js/2.43bc1ddc.chunk.js": "/Frugalis/static/js/2.43bc1ddc.chunk.js",
+    "static/js/2.43bc1ddc.chunk.js.map": "/Frugalis/static/js/2.43bc1ddc.chunk.js.map",
     "index.html": "/Frugalis/index.html",
-    "static/css/main.d0414287.chunk.css.map": "/Frugalis/static/css/main.d0414287.chunk.css.map",
-    "static/js/2.a5d192a1.chunk.js.LICENSE.txt": "/Frugalis/static/js/2.a5d192a1.chunk.js.LICENSE.txt"
+    "static/css/main.bc430367.chunk.css.map": "/Frugalis/static/css/main.bc430367.chunk.css.map",
+    "static/js/2.43bc1ddc.chunk.js.LICENSE.txt": "/Frugalis/static/js/2.43bc1ddc.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.4636ddc4.js",
-    "static/js/2.a5d192a1.chunk.js",
-    "static/css/main.d0414287.chunk.css",
-    "static/js/main.94efffdb.chunk.js"
+    "static/js/2.43bc1ddc.chunk.js",
+    "static/css/main.bc430367.chunk.css",
+    "static/js/main.75541bbb.chunk.js"
   ]
 }

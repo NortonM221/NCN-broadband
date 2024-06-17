@@ -8,9 +8,8 @@ export default function Bome() {
 
     return(
         <div className="bome">
-            <span className="nanTitle">Nanjemoy/Cobb Neck Service Agreements</span>
             <FeaturedInfo />
-            <Explanation />
+            {/* <Explanation /> */}
         </div>
     )
 

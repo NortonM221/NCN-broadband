@@ -15,29 +15,30 @@ const FeaturedInfo = () => {
 
   //cobb neck
   const data = [
+
     {
       "name": "Phase 1",
       "Total Homes/Businesses to be Passed": 45,
-      "Customer Service Agreements Received": 8,
+      "Customer Service Agreements Received": 11,
       "Customers Connected": 8
   },
   {
       "name": "Phase 2",
       "Total Homes/Businesses to be Passed": 56,
-      "Customer Service Agreements Received": 33,
-      "Customers Connected": 31
+      "Customer Service Agreements Received": 36,
+      "Customers Connected": 30
   },
   {
       "name": "Phase 3",
-      "Total Homes/Businesses to be Passed": 128,
-      "Customer Service Agreements Received": 78,
-      "Customers Connected": 70
+      "Total Homes/Businesses to be Passed": 130,
+      "Customer Service Agreements Received": 85,
+      "Customers Connected": 77
   },
   {
       "name": "Phase 4",
-      "Total Homes/Businesses to be Passed": 64,
-      "Customer Service Agreements Received": 46,
-      "Customers Connected": 9
+      "Total Homes/Businesses to be Passed": 68,
+      "Customer Service Agreements Received": 48,
+      "Customers Connected": 40
   }
 ]
 ;
@@ -46,33 +47,33 @@ const FeaturedInfo = () => {
 const dataa = [
   {
     "name": "Phase 1",
-    "Total Homes/Businesses to be Passed": 154,
-    "Customer Service Agreements Received": 99,
-    "Customers Connected": 89
+    "Total Homes/Businesses to be Passed": 156,
+    "Customer Service Agreements Received": 110,
+    "Customers Connected": 98
 },
 {
     "name": "Phase 2",
     "Total Homes/Businesses to be Passed": 197,
-    "Customer Service Agreements Received": 123,
-    "Customers Connected": 117
+    "Customer Service Agreements Received": 133,
+    "Customers Connected": 126
 },
 {
     "name": "Phase 3",
-    "Total Homes/Businesses to be Passed": 329,
-    "Customer Service Agreements Received": 123,
-    "Customers Connected": 84
+    "Total Homes/Businesses to be Passed": 332,
+    "Customer Service Agreements Received": 158,
+    "Customers Connected": 129
 },
 {
     "name": "Phase 4",
-    "Total Homes/Businesses to be Passed": 282,
-    "Customer Service Agreements Received": 107,
-    "Customers Connected": 38
+    "Total Homes/Businesses to be Passed": 283,
+    "Customer Service Agreements Received": 132,
+    "Customers Connected": 108
 },
 {
     "name": "Phase 5",
-    "Total Homes/Businesses to be Passed": 196,
-    "Customer Service Agreements Received": 86,
-    "Customers Connected": 51
+    "Total Homes/Businesses to be Passed": 199,
+    "Customer Service Agreements Received": 106,
+    "Customers Connected": 89
 }
 ];
 const renderCustomBarLabel = ({ payload, x, y, width, height, value }) => {
@@ -84,8 +85,8 @@ const renderCustomBarLabel = ({ payload, x, y, width, height, value }) => {
         <div>
         <span className="chartTitle">Nanjemoy</span>
       <BarChart 
-          width={550}
-          height={300}
+          width={500}
+          height={250}
           data={dataa}
           margin={{
             top: 5,
@@ -107,8 +108,8 @@ const renderCustomBarLabel = ({ payload, x, y, width, height, value }) => {
         <div>
           <span className="chartTitle">Cobb Neck</span>
         <BarChart
-          width={550}
-          height={300}
+          width={500}
+          height={250}
           data={data}
           margin={{
             top: 5,
@@ -119,7 +120,7 @@ const renderCustomBarLabel = ({ payload, x, y, width, height, value }) => {
         >
           <CartesianGrid strokeDasharray="3 3" />
           <XAxis dataKey="name" />
-          <YAxis tickCount={4} label={{ value: 'Total', angle: -90, position: 'outside', dx:-15}} />
+          <YAxis tickCount={6} label={{ value: 'Total', angle: -90, position: 'outside', dx:-15}} />
           <Tooltip />
           <Legend />
           <Bar dataKey="Total Homes/Businesses to be Passed" fill="#0078ad" label={renderCustomBarLabel} />
